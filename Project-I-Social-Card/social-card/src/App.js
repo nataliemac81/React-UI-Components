@@ -1,8 +1,8 @@
 import React from 'react';
-import HeaderTitle from "./components/HeaderComponents/HeaderTitle";
+import HeaderContainer from "./components/HeaderComponents/HeaderContainer";
+import CardContainer from "./components/CardComponents/CardContainer";
 
 import './App.css';
-import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 
 const App = () => {
   return (
@@ -22,8 +22,8 @@ const App = () => {
       </p>
 
 
-      <HeaderTitle />
-      <ImageThumbnail />
+      <HeaderContainer />
+      <CardContainer />
     </div>
   );
 };
