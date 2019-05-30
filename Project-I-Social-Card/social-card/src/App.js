@@ -1,5 +1,8 @@
 import React from 'react';
+import HeaderTitle from "./components/HeaderComponents/HeaderTitle";
+
 import './App.css';
+import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
 
 const App = () => {
   return (
@@ -17,6 +20,10 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+
+
+      <HeaderTitle />
+      <ImageThumbnail />
     </div>
   );
 };
