@@ -1,1 +1,44 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0; 
+	border: 1px solid gainsboro;
+	border-radius: 5px;
+}	
+
+.react-img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	border-radius: 2px;
+}
+
+.card-content {
+	padding: 0 5px;
+}
+
+.card-content h6 {
+	font-size: 14px;
+	/* border: 2px solid pink; */
+	margin: 0;
+	padding: 10px 5px 3px 5px;
+}
+
+.card-content .description {
+	font-size: 14px;
+	/* border: 2px solid pink; */
+	margin: 0;
+	padding: 3px 5px;
+}
+
+.card-content .link {
+	color: darkgray;
+	/* border: 2px solid pink; */
+	margin: 0;
+	padding: 3px 5px;
+}
