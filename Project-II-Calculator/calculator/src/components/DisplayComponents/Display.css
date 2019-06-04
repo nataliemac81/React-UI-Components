@@ -1,0 +1,21 @@
+.calc-display {
+	width: 500px;
+	height: 560px;
+	border: 2px solid gainsboro;
+	margin: 0 auto;
+}
+
+.screen {
+	width: 500px;
+	height: 100px;
+	border-bottom: 2px solid gainsboro;
+	background-color: rgb(34, 33, 33);
+}
+
+.screen-num {
+	font-size: 70px;
+	color: white;
+	text-align: end;
+	padding: 5px 10px;
+
+}
